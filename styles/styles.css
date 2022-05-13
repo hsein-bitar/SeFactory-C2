@@ -1,0 +1,9 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container * {
+    border: 1ps solid red;
+    display: flex;
+}
