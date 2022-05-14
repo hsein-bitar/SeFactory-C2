@@ -50,7 +50,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     margin: 0 auto;
     padding-right: 6vw;
@@ -177,7 +176,6 @@ body {
 .empowering-text>h1 {
     -webkit-text-size-adjust: 100%;
     overflow-wrap: break-word;
-    -webkit-font-smoothing: antialiased;
     font-family: 'Roboto';
     font-weight: 400;
     font-style: normal;
@@ -199,7 +197,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.6 - 1) * 1.2vh + 1.4rem);
     margin: 1rem 0;
     color: #fff;
@@ -221,7 +218,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     overflow: hidden;
@@ -242,7 +238,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     max-width: 1800px;
@@ -264,7 +259,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     width: auto !important;
@@ -281,7 +275,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     position: relative;
@@ -300,7 +293,6 @@ body {
 .number h1 {
     -webkit-text-size-adjust: 100%;
     overflow-wrap: break-word;
-    -webkit-font-smoothing: antialiased;
     font-family: Roboto;
     font-weight: 400;
     font-style: normal;
@@ -322,7 +314,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.6 - 1) * 1.2vw + 1rem);
     color: #000;
     text-align: center;
@@ -342,7 +333,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     width: 100%;
@@ -366,7 +356,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     width: 100%;
@@ -390,7 +379,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     /* min-height: 1px; */
@@ -407,7 +395,6 @@ body {
 .section-three h2 {
     -webkit-text-size-adjust: 100%;
     overflow-wrap: break-word;
-    -webkit-font-smoothing: antialiased;
     font-family: Roboto;
     font-weight: 400;
     font-style: normal;
@@ -429,7 +416,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.6 - 1) * 1.2vw + 1rem);
     margin: 1rem 0;
     color: #000;
@@ -452,7 +438,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     overflow: hidden;
@@ -474,7 +459,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     width: 100%;
@@ -493,7 +477,6 @@ body {
 .section-four h2 {
     /* border: 1px solid red; */
     overflow-wrap: break-word;
-    -webkit-font-smoothing: antialiased;
     font-family: Roboto;
     font-weight: 400;
     font-style: normal;
@@ -521,7 +504,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     width: auto !important;
@@ -537,7 +519,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     position: relative;
@@ -567,7 +548,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     width: 100%;
@@ -591,7 +571,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     width: 100%;
@@ -615,7 +594,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     /* min-height: 1px; */
@@ -632,7 +610,6 @@ body {
 .section-five h2 {
     -webkit-text-size-adjust: 100%;
     overflow-wrap: break-word;
-    -webkit-font-smoothing: antialiased;
     font-family: Roboto;
     font-weight: 400;
     font-style: normal;
@@ -654,7 +631,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.6 - 1) * 1.2vw + 1rem);
     margin: 1rem 0;
     color: #000;
@@ -674,7 +650,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     width: 100%;
@@ -692,7 +667,6 @@ body {
 
 .section-six h4 {
     -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
     font-family: Roboto;
     font-weight: 400;
     font-style: normal;
@@ -725,7 +699,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     position: relative;
@@ -751,7 +724,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     max-width: 1800px;
@@ -776,7 +748,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     width: 100%;
@@ -792,7 +763,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     /* position: relative; */
@@ -816,7 +786,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     width: 100%;
@@ -835,7 +804,6 @@ body {
 
 .section-eight h3 {
     -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
     font-family: 'Roboto';
     font-style: normal;
     letter-spacing: 0em;
@@ -860,7 +828,6 @@ body {
 
     .section-eight h3 {
         -webkit-text-size-adjust: 100%;
-        -webkit-font-smoothing: antialiased;
         font-family: 'Roboto';
         font-style: normal;
         letter-spacing: 0em;
@@ -891,7 +858,6 @@ body {
         letter-spacing: 0em;
         text-transform: none;
         line-height: 1.4;
-        -webkit-font-smoothing: antialiased;
         font-size: calc((1.3 - 1) * 1.2vw + 1rem);
         color: #000;
         width: auto !important;
@@ -911,7 +877,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     width: 100%;
@@ -929,7 +894,6 @@ body {
 
 .section-nine h3 {
     -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
     font-family: Roboto;
     font-style: normal;
     letter-spacing: 0em;
@@ -951,7 +915,6 @@ body {
 
     .section-nine h3 {
         -webkit-text-size-adjust: 100%;
-        -webkit-font-smoothing: antialiased;
         font-family: Roboto;
         font-style: normal;
         letter-spacing: 0em;
@@ -982,7 +945,6 @@ body {
         letter-spacing: 0em;
         text-transform: none;
         line-height: 1.4;
-        -webkit-font-smoothing: antialiased;
         font-size: calc((1.3 - 1) * 1.2vw + 1rem);
         color: #000;
         /* width: auto !important; */
@@ -1001,7 +963,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     width: auto !important;
@@ -1025,7 +986,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     width: 100%;
@@ -1049,7 +1009,6 @@ body {
     letter-spacing: 0em;
     text-transform: none;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
     width: auto !important;
@@ -1060,7 +1019,6 @@ body {
 .section-ten h3 {
     -webkit-text-size-adjust: 100%;
     overflow-wrap: break-word;
-    -webkit-font-smoothing: antialiased;
     font-family: 'Roboto';
     font-weight: 400;
     font-style: normal;
@@ -1081,7 +1039,64 @@ body {
     color: white;
 }
 
-
-
-
 /* end of section ten styling */
+
+/* footer styling */
+
+
+.footer {
+    /* border: 3px solid green; */
+    text-align: center;
+    background-color: #000;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4;
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+    color: #fff;
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: calc(30vmax / 10);
+    padding-bottom: calc(30vmax / 10);
+}
+
+.pivacy {
+    flex: 1;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4;
+    font-size: calc((1.1 - 1) * 1.2vw + 1rem);
+    background: transparent;
+    cursor: pointer;
+    white-space: initial;
+    color: #18ea19;
+    /* word-wrap: break-word; */
+    /* display: inline-block; */
+}
+
+.privacy a {
+    color: var(--green);
+}
+
+.social {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social i {
+    margin: 1vh;
+    color: white;
+}
