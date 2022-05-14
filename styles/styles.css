@@ -690,6 +690,59 @@ body {
 
 /* section six styling */
 .section-six {
+    /* border: 1px solid red; */
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+    color: #000;
+    width: 100%;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    /* margin: 0 auto; */
+    justify-content: center;
+    align-content: center;
+    padding-top: calc(20vmax / 10);
+    padding-bottom: calc(20vmax / 10);
+}
+
+.section-six h4 {
+    -webkit-text-size-adjust: 100%;
+    --sqs-site-gutter: 7vw;
+    --sqs-site-max-width: 1800px;
+    -webkit-font-smoothing: antialiased;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.248;
+    font-size: calc((2 - 1) * 1.2vw + 1rem);
+    margin: 2rem 0;
+    color: #000;
+    word-wrap: break-word;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+.section-six img {
+    width: 100%;
+
+}
+
+.section-six>div p {
+    /* border: 1px solid red; */
+    text-align: center;
     -webkit-text-size-adjust: 100%;
     overflow-wrap: break-word;
     --sqs-site-gutter: 7vw;
@@ -703,16 +756,18 @@ body {
     -webkit-font-smoothing: antialiased;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     color: #000;
-    max-width: 1800px;
-    width: 100%;
     position: relative;
-    display: flex;
-    padding-right: 7vw;
-    padding-left: 7vw;
-    margin: 0 auto;
-    justify-content: center;
-    padding-top: calc(20vmax / 10);
-    padding-bottom: calc(20vmax / 10);
+    height: auto;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    clear: none;
+    padding-left: 17px;
+    padding-right: 17px;
 }
 
 /* end of section six styling */
+
+
+/* section seven styling */
+
+/* end of section seven styling */
