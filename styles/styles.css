@@ -861,7 +861,7 @@ body {
     .section-eight h3 {
         -webkit-text-size-adjust: 100%;
         -webkit-font-smoothing: antialiased;
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-style: normal;
         letter-spacing: 0em;
         text-transform: none;
@@ -947,6 +947,49 @@ body {
     width: 90vw;
 }
 
+@media screen and (min-width: 768px) {
+
+    .section-nine h3 {
+        -webkit-text-size-adjust: 100%;
+        -webkit-font-smoothing: antialiased;
+        font-family: Roboto;
+        font-style: normal;
+        letter-spacing: 0em;
+        text-transform: none;
+        line-height: 1.222;
+        font-size: calc((2.5 - 1) * 1.2vw + 1rem);
+        color: #000;
+        text-align: center;
+        white-space: pre-wrap;
+        font-weight: bold;
+        word-wrap: break-word;
+        padding-bottom: 3vh;
+    }
+
+    .section-nine img {
+        max-width: 20vw;
+        padding-bottom: 3vh;
+    }
+
+    .section-nine .container {
+        display: flex;
+        justify-content: space-around;
+        -webkit-text-size-adjust: 100%;
+        overflow-wrap: break-word;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 0em;
+        text-transform: none;
+        line-height: 1.4;
+        -webkit-font-smoothing: antialiased;
+        font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+        color: #000;
+        /* width: auto !important; */
+    }
+
+}
+
 .section-nine .container {
     display: flex;
     justify-content: space-around;
@@ -973,5 +1016,72 @@ body {
 /* end of section nine styling */
 
 /* section ten styling */
+.section-ten {
+    -webkit-text-size-adjust: 100%;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+    color: #000;
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 3.3vmax;
+    padding-bottom: 3.3vmax;
+}
+
+.section-ten .container {
+    text-align: center;
+    -webkit-text-size-adjust: 100%;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+    color: #000;
+    width: auto !important;
+    margin-left: -17px;
+    margin-right: -17px;
+}
+
+.section-ten h3 {
+    -webkit-text-size-adjust: 100%;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.222;
+    font-size: calc((2.5 - 1) * 1.2vw + 1rem);
+    margin: 2rem 0;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 4vh;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+.section-ten button {
+    background-color: #000;
+    color: white;
+}
+
+
+
 
 /* end of section ten styling */
