@@ -767,7 +767,165 @@ body {
 
 /* end of section six styling */
 
-
 /* section seven styling */
 
+
+.wassim {
+    -webkit-text-size-adjust: 100%;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+    color: #000;
+    max-width: 1800px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: calc(10vmax / 10);
+    padding-bottom: calc(10vmax / 10);
+}
+
+
+.wassim>div {
+    -webkit-text-size-adjust: 100%;
+    overflow-wrap: break-word;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+    color: #000;
+    width: 100%;
+}
+
+.wassim img {
+    max-width: 60vw;
+    -webkit-text-size-adjust: 100%;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+    color: #000;
+    /* position: relative; */
+    /* padding-bottom: 40.248226165771484%; */
+    overflow: hidden;
+}
+
+
 /* end of section seven styling */
+
+/* section eight styling */
+
+.section-eight {
+    /* border: 1px solid red; */
+    background-color: #e6e6e6;
+    -webkit-text-size-adjust: 100%;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+    color: #000;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3.3vmax;
+    padding-bottom: 3.3vmax;
+}
+
+.section-eight h3 {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-family: Roboto;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.222;
+    font-size: calc((2.5 - 1) * 1.2vw + 1.5rem);
+    color: #000;
+    text-align: center;
+    white-space: pre-wrap;
+    font-weight: bold;
+    word-wrap: break-word;
+    padding-bottom: 3vh;
+}
+
+.section-eight img {
+    /* border: 1px solid red; */
+    max-width: 80vw;
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .section-eight h3 {
+        -webkit-text-size-adjust: 100%;
+        -webkit-font-smoothing: antialiased;
+        font-family: Roboto;
+        font-style: normal;
+        letter-spacing: 0em;
+        text-transform: none;
+        line-height: 1.222;
+        font-size: calc((2.5 - 1) * 1.2vw + 1rem);
+        color: #000;
+        text-align: center;
+        white-space: pre-wrap;
+        font-weight: bold;
+        word-wrap: break-word;
+        padding-bottom: 3vh;
+    }
+
+    .section-eight img {
+        max-width: 20vw;
+        padding-bottom: 3vh;
+    }
+
+    .section-eight .container {
+        display: flex;
+        justify-content: space-around;
+        -webkit-text-size-adjust: 100%;
+        overflow-wrap: break-word;
+        --sqs-site-gutter: 7vw;
+        --sqs-site-max-width: 1800px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 0em;
+        text-transform: none;
+        line-height: 1.4;
+        -webkit-font-smoothing: antialiased;
+        font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+        color: #000;
+        width: auto !important;
+    }
+}
+
+/* end of section eight styling */
