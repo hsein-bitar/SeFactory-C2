@@ -8,222 +8,252 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="shortcut icon" href="assets/favicons/ba5c1018-c770-42a0-91de-79efaeee4729-favicon.ico"
         type="image/x-icon">
-    <link rel="stylesheet" href="styles/styles.css">
+    <!-- <link rel="stylesheet" href="styles/styles.css"> -->
+    <style>
+        * {
+            max-width: 100% !important;
+            /* border: 1px solid red; */
+        }
+
+        html,
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        .tempo {
+            border: 1px solid red;
+        }
+
+        .t {
+            border: 5px solid blue;
+        }
+
+        .section-1 {
+            min-height: 85vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(/assets/images/IMG_9780.jpg);
+            background-blend-mode: darken;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left bottom;
+        }
+
+        .empowering {
+            padding-top: 30vh;
+        }
+
+        .empowering-1 {
+            font-size: calc((3.5 - 1) * 1.2vw + 1rem);
+        }
+
+        .btn-success {
+            padding: 10px 20px !important;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/bootstrap.css">
     <script src="https://kit.fontawesome.com/946dc31868.js" crossorigin="anonymous"></script>
     <title>SE Factory - Empowering Youth With Tech Jobs</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="container-one">
-            <div class="header">
-                <div class="header-inner">
-                    <div class="logo"> <img
-                            src="assets/images/f4e4a30d-4b0d-4e5f-a2e8-4e2da9234088-SE-Grey-Icon-RGB-01+copy.png"
-                            alt="SE Factory"> </div>
-                    <div class="header-nav">
-                        <div class="header-nav-wrapper">
-                            <div class="header-nav-list">
-                                <div class="link">
-                                    <a href="#">Home</a>
-                                </div>
-                                <div class="link">
-                                    <a href="#">Get Trained</a>
-                                </div>
-                                <div class="link">
-                                    <a href="#"> Hire Talent</a>
-                                </div>
-                                <div class="link">
-                                    <a href="#">FAQs</a>
-                                </div>
-                                <div class="link">
-                                    <a href="#">Blog</a>
-                                </div>
-                                <div class="link">
-                                    <a href="#">About Us</a>
-                                </div>
-                                <div class="link">
-                                    <a href="#">Contact</a>
-                                </div>
-                                <div class="link green-button">
-                                    <a href="#">Apply Now</a>
-                                </div>
-                            </div>
+    <div class="section-1 container-fluid min-vh-100 pt-2 pl-5 pr-5 tempo">
+        <div class="container-fluid bg-cover">
+            <nav class=" navbar navbar-expand-lg navbar-light p-0 m-0">
+                <div class="container-fluid">
+                    <a href="#" class=" navbar-brand">
+                        <img src="assets/images/f4e4a30d-4b0d-4e5f-a2e8-4e2da9234088-SE-Grey-Icon-RGB-01+copy.png"
+                            alt="SE Factory" height="80">
+                    </a>
+                    <div class=" justify-content-end collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav flex-wrap">
+                            <a href="#" class="h5 nav-item nav-link text-light">Home</a>
+                            <a href="#" class="h5 nav-item nav-link text-light">Get Trained</a>
+                            <a href="#" class="h5 nav-item nav-link text-light"> Hire Talent</a>
+                            <a href="#" class="h5 nav-item nav-link text-light">FAQs</a>
+                            <a href="#" class="h5 nav-item nav-link text-light">Blog</a>
+                            <a href="#" class="h5 nav-item nav-link text-light">About Us</a>
+                            <a href="#" class="h5 nav-item nav-link text-light">Contact</a>
+                            <a href="#" type="button" class="btn btn-success h5 ">Apply Now</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="section-one">
-                <div class="empowering-container">
-                    <div class="empowering-text">
-                        <h1><strong>Empowering youth</strong><br />with tech jobs.</h1>
-                    </div>
-                    <div class="empowering-text">
-                        <p>SE Factory&rsquo;s top-ranked training programs graduate tech professionals
-                            working for companies all over the world.</p>
-                    </div>
-                    <div class="btn-container">
-                        <div class="green-button lg">
-                            <a href="#">Learn More </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </nav>
         </div>
-        <div class="section-two">
-            <div class="content-wrapper">
-                <div class="content-list">
-                    <div class="number">
-                        <div>
-                            <h1><strong>90%</strong></h1>
-                            <p><strong>Employment<br />Success Rate<br />&mdash;</strong></p>
-                        </div>
-                    </div>
-                    <div class="number">
-                        <div>
-                            <h1><strong>500+</strong></h1>
-                            <p><strong>Youth Trained<br />Since 2016<br />&mdash;</strong></p>
-                        </div>
-                    </div>
-                    <div class="number">
-                        <div>
-                            <h1><strong>145+</strong></h1>
-                            <p><strong>Global Recruitment <br /> Partner Companies<br />&mdash;</strong>
-                            </p>
-                        </div>
+        <div class="empowering container-fluid">
+            <div class="">
+                <div class="m-5">
+                    <h1 class="empowering-1 text-light"><strong>Empowering youth</strong><br />with tech jobs.</h1>
+                </div>
+                <div class="m-5 ">
+                    <p class=" text-light h4">SE Factory&rsquo;s top-ranked training programs graduate tech
+                        professionals
+                        working for companies all over the world.</p>
+                </div>
+                <div class="m-5">
+                    <div class="h5 btn btn-success">
+                        <a href="#" class=" h5 text-light">Learn More </a>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="section-three">
-            <div class="content-wrapper">
-                <div class="img">
-                    <img src="./assets/images/1589973257029.jpg" alt="">
-                </div>
-                <div>
-                    <h2>Get the skills <br /><strong>companies look for.</strong></h2>
-                    <p>Learn how to become a professional Full Stack Web Developer. Acquire technical and
-                        interpersonal skills, and gain access to a vast network of employers.</p>
-                    <p><a href="#">Learn more &rarr;</a>
-                    <p>
-                </div>
-            </div>
-        </div>
-        <div class="section-four">
-            <div class="content-wrapper">
-                <div>
-                    <h2>Discover the program<br /><strong>that&rsquo;s right for you.</strong></h2>
-                </div>
-                <div class="cards-wrapper">
-                    <div class="card">
-                        <div><img src="assets/images/01159019817228.png" alt="Artboard 6@4x.png" /><img />
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div><img src="assets/images/02159019819163.png" alt="Artboard 7@4x.png" /><img />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section-five">
-            <div class="content-wrapper">
-                <div class="img">
-                    <img src="./assets/images/x1589973282712.jpg" alt="">
-                </div>
-                <div>
-                    <h2>Our graduates are <br /><strong>market ready.</strong></h2>
-                    <p>Students go through deep technical training, including robust theory and intensive coding, with
-                        emphasis on critical thinking and a can-do attitude.</p>
-                    <p><a href="#">Learn more &rarr;</a>
-                    <p>
-                </div>
-            </div>
-        </div>
-        <div class="section-six">
-            <h4>Join our <strong>Global</strong><strong> Recruitment Partner Network </strong>and access top talent
-                wherever you are.</h4>
-            <div>
-                <p>150+ companies from over 10 countries
-                    have joined our network since 2016</p>
-            </div>
-            <div>
-                <img src="assets/images/RP159030985814.jpg" alt="RP+partner+logos.jpg"><img />
-            </div>
-        </div>
-        <div class="wassim">
-            <img src="assets/images/ws1592602342483.jpg" alt="Dr. Wassim El-Hajj feedback">
-        </div>
-        <div class="section-eight">
-            <div>
-                <h3><strong>In The Media<br /></strong></h3>
-            </div>
-            <div class="container">
-                <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814318715-WVCEHMH9Y7N72E6U5BZ3/9.png"
-                    alt="Meet The Cofounders Scaling Coding Skills Across Lebanon" />
-                <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814334939-I3Z4SHE2JF8SY6DSJ7L4/8.png"
-                    alt="What Silicon Valley can learn from Lebanon’s women in tech" />
-                <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814356768-T3IS2PUEGWSJA4CH7FOL/3.png"
-                    alt="SE Factory Arms Youth" />
-                <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814414909-JE93KHKF4LYH5FVTE2EP/1.png"
-                    alt="1.png" />
-            </div>
-            <div class="container">
-                <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814433113-K8T38T3XQ7ME8C2HUQVM/2.png"
-                    alt="SE Factory's Bootcamp For Tech Graduates Aims To Bridge Lebanon's Skills Gap" />
-                <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814458140-M3H2R0QP0WZJGJZT0LXZ/7.png"
-                    alt="7.png" />
-                <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814525813-71516OZGLMD6ONQ3B19E/5.png"
-                    alt="5.png" />
-                <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814552857-B02APBWZI4OJLEOU8NF4/4.png"
-                    alt="4.png" />
-            </div>
-        </div>
-        <div class="section-nine">
-            <div>
-                <h3><strong>Funding Partners<br /></strong></h3>
-                <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/533b83c4-4563-4687-ad04-c149076044c8/SEF_donors-01+%281%29.png"
-                    alt="" />
-            </div>
-            <div>
-                <hr>
-                <h3><strong>Strategic Partners<br /></strong></h3>
-                <div class="container">
-                    <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1591389137172-CNMIQAFQDN3AXUKXW7Z1/image-asset.jpeg"
-                        alt="" />
-
-                    <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1591389170314-B0B560X7KF4YFZIP9IKT/6.jpg"
-                        alt="6.jpg" />
-
-                    <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1591389190527-RVS5D8BXYPDWZUA4MIUL/3.jpg"
-                        alt="3.jpg" />
-
-                    <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1591389210499-FXDI56FU51G1ERTQI523/8.jpg"
-                        alt="8.jpg" />
-                </div>
-            </div>
-        </div>
-        <div class="section-ten">
-            <div class="container">
-                <h3><strong>Subscribe to our newsletter<br /></strong>and stay up-to-date with our latest news.</h3>
-                <div><button class="green-button lg"> Subscribe </button></div>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="privacy">
-                <a href="#">Privacy policy</a>
-            </div>
-            <div class="copy">
-                <p><strong>Copyright &copy; 2022 SE Factory SAL. All Rights Reserved.</strong></p>
-            </div>
-            <div class="social">
-                <i class="fa-lg fa-brands fa-linkedin-in"></i>
-                <i class="fa-lg fa-brands fa-facebook-f"></i>
-                <i class="fa-lg fa-brands fa-instagram"></i>
-                <i class="fa-lg fa-brands fa-twitter"></i>
             </div>
         </div>
     </div>
+
+
+
+    <div class="section-two">
+        <div class="content-wrapper">
+            <div class="content-list">
+                <div class="number">
+                    <div>
+                        <h1><strong>90%</strong></h1>
+                        <p><strong>Employment<br />Success Rate<br />&mdash;</strong></p>
+                    </div>
+                </div>
+                <div class="number">
+                    <div>
+                        <h1><strong>500+</strong></h1>
+                        <p><strong>Youth Trained<br />Since 2016<br />&mdash;</strong></p>
+                    </div>
+                </div>
+                <div class="number">
+                    <div>
+                        <h1><strong>145+</strong></h1>
+                        <p><strong>Global Recruitment <br /> Partner Companies<br />&mdash;</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-three">
+        <div class="content-wrapper">
+            <div class="img">
+                <img src="./assets/images/1589973257029.jpg" alt="">
+            </div>
+            <div>
+                <h2>Get the skills <br /><strong>companies look for.</strong></h2>
+                <p>Learn how to become a professional Full Stack Web Developer. Acquire technical and
+                    interpersonal skills, and gain access to a vast network of employers.</p>
+                <p><a href="#">Learn more &rarr;</a>
+                <p>
+            </div>
+        </div>
+    </div>
+    <div class="section-four">
+        <div class="content-wrapper">
+            <div>
+                <h2>Discover the program<br /><strong>that&rsquo;s right for you.</strong></h2>
+            </div>
+            <div class="cards-wrapper">
+                <div class="card">
+                    <div><img src="assets/images/01159019817228.png" alt="Artboard 6@4x.png" /><img />
+                    </div>
+                </div>
+                <div class="card">
+                    <div><img src="assets/images/02159019819163.png" alt="Artboard 7@4x.png" /><img />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-five">
+        <div class="content-wrapper">
+            <div class="img">
+                <img src="./assets/images/x1589973282712.jpg" alt="">
+            </div>
+            <div>
+                <h2>Our graduates are <br /><strong>market ready.</strong></h2>
+                <p>Students go through deep technical training, including robust theory and intensive coding, with
+                    emphasis on critical thinking and a can-do attitude.</p>
+                <p><a href="#">Learn more &rarr;</a>
+                <p>
+            </div>
+        </div>
+    </div>
+    <div class="section-six">
+        <h4>Join our <strong>Global</strong><strong> Recruitment Partner Network </strong>and access top talent
+            wherever you are.</h4>
+        <div>
+            <p>150+ companies from over 10 countries
+                have joined our network since 2016</p>
+        </div>
+        <div>
+            <img src="assets/images/RP159030985814.jpg" alt="RP+partner+logos.jpg"><img />
+        </div>
+    </div>
+    <div class="wassim">
+        <img src="assets/images/ws1592602342483.jpg" alt="Dr. Wassim El-Hajj feedback">
+    </div>
+    <div class="section-eight">
+        <div>
+            <h3><strong>In The Media<br /></strong></h3>
+        </div>
+        <div class="container">
+            <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814318715-WVCEHMH9Y7N72E6U5BZ3/9.png"
+                alt="Meet The Cofounders Scaling Coding Skills Across Lebanon" />
+            <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814334939-I3Z4SHE2JF8SY6DSJ7L4/8.png"
+                alt="What Silicon Valley can learn from Lebanon’s women in tech" />
+            <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814356768-T3IS2PUEGWSJA4CH7FOL/3.png"
+                alt="SE Factory Arms Youth" />
+            <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814414909-JE93KHKF4LYH5FVTE2EP/1.png"
+                alt="1.png" />
+        </div>
+        <div class="container">
+            <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814433113-K8T38T3XQ7ME8C2HUQVM/2.png"
+                alt="SE Factory's Bootcamp For Tech Graduates Aims To Bridge Lebanon's Skills Gap" />
+            <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814458140-M3H2R0QP0WZJGJZT0LXZ/7.png"
+                alt="7.png" />
+            <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814525813-71516OZGLMD6ONQ3B19E/5.png"
+                alt="5.png" />
+            <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1588814552857-B02APBWZI4OJLEOU8NF4/4.png"
+                alt="4.png" />
+        </div>
+    </div>
+    <div class="section-nine">
+        <div>
+            <h3><strong>Funding Partners<br /></strong></h3>
+            <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/533b83c4-4563-4687-ad04-c149076044c8/SEF_donors-01+%281%29.png"
+                alt="" />
+        </div>
+        <div>
+            <hr>
+            <h3><strong>Strategic Partners<br /></strong></h3>
+            <div class="container">
+                <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1591389137172-CNMIQAFQDN3AXUKXW7Z1/image-asset.jpeg"
+                    alt="" />
+
+                <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1591389170314-B0B560X7KF4YFZIP9IKT/6.jpg"
+                    alt="6.jpg" />
+
+                <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1591389190527-RVS5D8BXYPDWZUA4MIUL/3.jpg"
+                    alt="3.jpg" />
+
+                <img src="https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1591389210499-FXDI56FU51G1ERTQI523/8.jpg"
+                    alt="8.jpg" />
+            </div>
+        </div>
+    </div>
+    <div class="section-ten">
+        <div class="container">
+            <h3><strong>Subscribe to our newsletter<br /></strong>and stay up-to-date with our latest news.</h3>
+            <div><button class="green-button lg"> Subscribe </button></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="privacy">
+            <a href="#">Privacy policy</a>
+        </div>
+        <div class="copy">
+            <p><strong>Copyright &copy; 2022 SE Factory SAL. All Rights Reserved.</strong></p>
+        </div>
+        <div class="social">
+            <i class="fa-lg fa-brands fa-linkedin-in"></i>
+            <i class="fa-lg fa-brands fa-facebook-f"></i>
+            <i class="fa-lg fa-brands fa-instagram"></i>
+            <i class="fa-lg fa-brands fa-twitter"></i>
+        </div>
+    </div>
+
 </body>
 
 </html>
