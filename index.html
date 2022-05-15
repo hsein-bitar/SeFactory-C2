@@ -29,8 +29,12 @@
             border: 5px solid blue;
         }
 
+        .green-btn {
+            font-size: 1rem !important;
+        }
+
         .section-1 {
-            min-height: 85vh;
+            min-height: 100vh;
             background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(/assets/images/IMG_9780.jpg);
             background-blend-mode: darken;
             background-size: cover;
@@ -39,7 +43,7 @@
         }
 
         .empowering {
-            padding-top: 30vh;
+            padding-top: 35vh;
         }
 
         .empowering-1 {
@@ -49,6 +53,21 @@
         .btn-success {
             padding: 10px 20px !important;
         }
+
+        .section-2 {
+            min-height: 33vh;
+        }
+
+        .number h1 {
+            line-height: 1.17;
+            font-size: calc((3.5 - 1) * 1.2vw + 1rem);
+            margin: 2rem 0;
+            color: var(--green);
+        }
+
+        .number p strong {
+            font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+        }
     </style>
     <link rel="stylesheet" href="styles/bootstrap.css">
     <script src="https://kit.fontawesome.com/946dc31868.js" crossorigin="anonymous"></script>
@@ -56,24 +75,24 @@
 </head>
 
 <body>
-    <div class="section-1 container-fluid min-vh-100 pt-2 pl-5 pr-5 tempo">
+    <div class="section-1 container-fluid min-vh-100 pt-2 pl-5 pr-5">
         <div class="container-fluid bg-cover">
             <nav class=" navbar navbar-expand-lg navbar-light p-0 m-0">
                 <div class="container-fluid">
                     <a href="#" class=" navbar-brand">
                         <img src="assets/images/f4e4a30d-4b0d-4e5f-a2e8-4e2da9234088-SE-Grey-Icon-RGB-01+copy.png"
-                            alt="SE Factory" height="80">
+                            alt="SE Factory" height="120">
                     </a>
                     <div class=" justify-content-end collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav flex-wrap">
-                            <a href="#" class="h5 nav-item nav-link text-light">Home</a>
-                            <a href="#" class="h5 nav-item nav-link text-light">Get Trained</a>
-                            <a href="#" class="h5 nav-item nav-link text-light"> Hire Talent</a>
-                            <a href="#" class="h5 nav-item nav-link text-light">FAQs</a>
-                            <a href="#" class="h5 nav-item nav-link text-light">Blog</a>
-                            <a href="#" class="h5 nav-item nav-link text-light">About Us</a>
-                            <a href="#" class="h5 nav-item nav-link text-light">Contact</a>
-                            <a href="#" type="button" class="btn btn-success h5 ">Apply Now</a>
+                            <a href="#" class="m-3 h4 nav-item nav-link text-light">Home</a>
+                            <a href="#" class=" m-3 h4 nav-item nav-link text-light">Get Trained</a>
+                            <a href="#" class=" m-3 h4 nav-item nav-link text-light"> Hire Talent</a>
+                            <a href="#" class=" m-3 h4 nav-item nav-link text-light">FAQs</a>
+                            <a href="#" class=" m-3 h4 nav-item nav-link text-light">Blog</a>
+                            <a href="#" class=" m-3 h4 nav-item nav-link text-light">About Us</a>
+                            <a href="#" class=" m-3 h4 nav-item nav-link text-light">Contact</a>
+                            <a href="#" class="  m-3 btn-success btn-lg">Apply Now</a>
                         </div>
                     </div>
                 </div>
@@ -97,31 +116,24 @@
             </div>
         </div>
     </div>
-
-
-
-    <div class="section-two">
-        <div class="content-wrapper">
-            <div class="content-list">
-                <div class="number">
-                    <div>
-                        <h1><strong>90%</strong></h1>
-                        <p><strong>Employment<br />Success Rate<br />&mdash;</strong></p>
-                    </div>
-                </div>
-                <div class="number">
-                    <div>
-                        <h1><strong>500+</strong></h1>
-                        <p><strong>Youth Trained<br />Since 2016<br />&mdash;</strong></p>
-                    </div>
-                </div>
-                <div class="number">
-                    <div>
-                        <h1><strong>145+</strong></h1>
-                        <p><strong>Global Recruitment <br /> Partner Companies<br />&mdash;</strong>
-                        </p>
-                    </div>
-                </div>
+    <div class="section-2 m-0 row tempo d-flex justify-content-around">
+        <div class="number">
+            <div class="tempo number text-center">
+                <h1><strong>90%</strong></h1>
+                <p><strong>Employment<br />Success Rate<br />&mdash;</strong></p>
+            </div>
+        </div>
+        <div class="number">
+            <div class="tempo text-center">
+                <h1><strong>500+</strong></h1>
+                <p class="tempo text-center"><strong>Youth Trained<br />Since 2016<br />&mdash;</strong></p>
+            </div>
+        </div>
+        <div class="number">
+            <div class="tempo text-center">
+                <h1><strong>145+</strong></h1>
+                <p><strong>Global Recruitment <br /> Partner Companies<br />&mdash;</strong>
+                </p>
             </div>
         </div>
     </div>
