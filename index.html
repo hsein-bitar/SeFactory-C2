@@ -8,10 +8,15 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="shortcut icon" href="assets/favicons/ba5c1018-c770-42a0-91de-79efaeee4729-favicon.ico"
         type="image/x-icon">
-    <!-- <link rel="stylesheet" href="styles/styles.css"> -->
+
     <style>
+        :root {
+            --green: #00DD00;
+        }
+
         * {
             max-width: 100% !important;
+            box-sizing: border-box !important;
             /* border: 1px solid red; */
         }
 
@@ -29,6 +34,10 @@
             border: 5px solid blue;
         }
 
+        .logo {
+            height: 120px;
+        }
+
         .green-btn {
             font-size: 1rem !important;
         }
@@ -43,7 +52,7 @@
         }
 
         .empowering {
-            padding-top: 35vh;
+            padding-top: 34vh;
         }
 
         .empowering-1 {
@@ -55,37 +64,78 @@
         }
 
         .section-2 {
+            padding-top: 4vh;
             min-height: 33vh;
         }
 
-        .number h1 {
-            line-height: 1.17;
-            font-size: calc((3.5 - 1) * 1.2vw + 1rem);
-            margin: 2rem 0;
+        .section-2 h1 {
             color: var(--green);
+            line-height: 1.17;
+            font-size: calc((3.5 - 1) * 1.2vw + 1.4rem) !important;
         }
 
-        .number p strong {
-            font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+        .section-2 p strong {
+            font-size: calc((1.6 - 1) * 1.4vw + 1.2rem) !important;
         }
 
-        .section-3>img {
-            max-width: 30vw;
+        .section-4 {
+            margin-top: 8vh;
+            -webkit-text-size-adjust: 100%;
+            background-color: #25e200;
+            color: white;
         }
+
+        @media screen and (max-width: 480px) {
+            .section-2 {
+                flex-direction: column !important;
+
+            }
+
+
+            .logo {
+                margin: 2vh 0vh;
+                height: 80px;
+            }
+
+            .empowering {
+                min-width: 90VW;
+                padding-top: 10vh;
+                padding-bottom: 8vh;
+            }
+
+            .section-1 {
+                min-height: 80vh;
+            }
+
+            .number h1 {
+                line-height: 1.17;
+                font-size: calc((3.5 - 1) * 1.2vw + 1rem);
+                margin: 2rem 0;
+                color: var(--green);
+            }
+
+            .number p strong {
+                font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+            }
+
+            .section-3>img {
+                max-width: 30vw;
+            }
     </style>
     <link rel="stylesheet" href="styles/bootstrap.css">
     <script src="https://kit.fontawesome.com/946dc31868.js" crossorigin="anonymous"></script>
     <title>SE Factory - Empowering Youth With Tech Jobs</title>
 </head>
 
-<body>
-    <div class="section-1 container-fluid min-vh-100 pt-2 pl-5 pr-5">
+<body class="container">
+    <div class="section-1 container-fluid pt-2 pl-5 pr-5">
         <div class="container-fluid bg-cover">
             <nav class=" navbar navbar-expand-lg navbar-light p-0 m-0">
                 <div class="container-fluid">
                     <a href="#" class=" navbar-brand">
-                        <img src="assets/images/f4e4a30d-4b0d-4e5f-a2e8-4e2da9234088-SE-Grey-Icon-RGB-01+copy.png"
-                            alt="SE Factory" height="120">
+                        <img class="logo"
+                            src="assets/images/f4e4a30d-4b0d-4e5f-a2e8-4e2da9234088-SE-Grey-Icon-RGB-01+copy.png"
+                            alt="SE Factory">
                     </a>
                     <div class=" justify-content-end collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav flex-wrap">
@@ -103,8 +153,8 @@
             </nav>
         </div>
         <div class="empowering container-fluid">
-            <div class="">
-                <div class="m-5">
+            <div class="ml-0 ">
+                <div class="">
                     <h1 class="empowering-1 text-light"><strong>Empowering youth</strong><br />with tech jobs.</h1>
                 </div>
                 <div class="m-5 ">
@@ -120,7 +170,7 @@
             </div>
         </div>
     </div>
-    <div class="section-2 m-0 row d-flex justify-content-around">
+    <div class="section-2 m-0 row justify-content-around">
         <div class="number">
             <div class="number text-center">
                 <h1><strong>90%</strong></h1>
@@ -141,34 +191,26 @@
             </div>
         </div>
     </div>
-    <div class="tempo section-3 m-0 p-5 row justify-content-around">
-        <img src="./assets/images/1589973257029.jpg" alt="idk, am stressed">
-        <div class="text-left">
+    <div class="container-fluid section-3 m-0 p-3">
+        <img class="align-items-center" src="./assets/images/1589973257029.jpg" alt="idk, am stressed">
+        <div class=" align-items-center text-left ">
             <h2>Get the skills <br /><strong>companies look for.</strong></h2>
-            <div class="tempo h4 ml-2">
+            <div class=" h4 ml-2">
                 <p>Learn how to become a professional Full Stack Web Developer. Acquire technical and
                     interpersonal skills, and gain access to a vast network of employers.</p>
-                <p><a href="#">Learn more &rarr;</a>
+                <p><a class="text-success" href="#">Learn more &rarr;</a>
                 <p>
             </div>
         </div>
     </div>
-    <div class="section-four">
-        <div class="content-wrapper">
-            <div>
-                <h2>Discover the program<br /><strong>that&rsquo;s right for you.</strong></h2>
-            </div>
-            <div class="cards-wrapper">
-                <div class="card">
-                    <div><img src="assets/images/01159019817228.png" alt="Artboard 6@4x.png" /><img />
-                    </div>
-                </div>
-                <div class="card">
-                    <div><img src="assets/images/02159019819163.png" alt="Artboard 7@4x.png" /><img />
-                    </div>
-                </div>
-            </div>
+    <div class="section-4 text-center">
+        <div>
+            <h2 class="pt-5 pb-5">Discover the program<br /><strong>that&rsquo;s right for you.</strong></h2>
         </div>
+
+        <img class="pb-5 pl-5 pr-5" src="assets/images/01159019817228.png" alt="Artboard 6@4x.png" /><img />
+
+        <img class="pb-5  pl-5 pr-5" src="assets/images/02159019819163.png" alt="Artboard 7@4x.png" /><img />
     </div>
     <div class="section-five">
         <div class="content-wrapper">
@@ -250,10 +292,10 @@
     <div class="section-ten">
         <div class="container">
             <h3><strong>Subscribe to our newsletter<br /></strong>and stay up-to-date with our latest news.</h3>
-            <div><button class="green-button lg"> Subscribe </button></div>
+            <div><button class="dark-button lg btn h1 btn-dark"> Subscribe </button></div>
         </div>
     </div>
-    <div class="footer">
+    <div class="footer row">
         <div class="privacy">
             <a href="#">Privacy policy</a>
         </div>
